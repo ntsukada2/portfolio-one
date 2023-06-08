@@ -19,6 +19,7 @@ header {
     padding-top: 8px;
     padding-left: 8px;
 
+
 }
 
 header ul {
@@ -169,4 +170,9 @@ footer li a {
     height: 2.5rem;
     padding-left: 2rem;
 
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
 }
