@@ -46,9 +46,6 @@ header li a {
     padding-right: 1rem;
 }
 
-main h2{
-    display: flex;
-}
 
 /*splash banner*/
 section {
@@ -72,6 +69,59 @@ section img{
     letter-spacing: 0.25rem;
     font-size: 5.5rem;
     font-family: 'Playfair', serif;
+}
 
+.Projects ul{
+    list-style-type: none;
+}
+
+h2{
+    font-family: 'Prompt', sans-serif;
+}
+
+main{
+    background-color: #454742;
+    color: white;
+}
+
+/*article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}*/
+article h2 {
+    margin-left: 0.5rem;
+}
+
+.Projects img {
+    height: 25rem;
+    box-shadow:rgba(0, 0, 0, 0.2);
 
 }
+
+.project-cards {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.project-cards li a{
+    font-size: 2rem;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.Skills img {
+    height: 3.5rem;
+}
+
+.Skills {
+    display: flex;
+    justify-content: space-around;
+}
+
