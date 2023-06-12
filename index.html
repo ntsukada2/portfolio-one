@@ -13,10 +13,10 @@
         <header>
             <ul>
                 <li style="float:left"> <a href="#"><img src="assets/newlogo.png" id="logo"></a> </li>
-                <li><a href="assets/contact.html" >Contact</a></li>
-                <li id="skills-button"><a href="#skills">Skills</a></li>
-                <li id="projects-button"><a href="#projects">Projects</a></li>
-                <li id="about-button"><a href="#about" >About</a></li>
+                <li class="header-navs" id="contact-link"><a href="assets/contact.html" >Contact</a></li>
+                <li class="header-navs" ><a href="#skills">Skills</a></li>
+                <li class="header-navs" ><a href="#projects">Projects</a></li>
+                <li class="header-navs" class="about-button"><a href="#about" >About</a></li>
             </ul>
         </header>
         <main>
@@ -27,19 +27,17 @@
             </section>
             <nav>
                 <ul>
-                    <li id="about-button">About</li>
-                    <li id="projects-button">Projects</li>
-                    <li id="skills-button">Skills</li>
+                    <li class="about-button"><a href="#about">About</a></li>
+                    <li id="projects-button"><a href="#projects">Projects</a></li>
+                    <li id="skills-button"> <a href="#skills">Skills</a></li>
                 </ul>
             </nav>
             <article>
                 <div class="About" id="about">
-                    <h2>About Me</h2>
                         <p>Hello! I'm Naomi, a frontend developer based out of Cincinnati. I pride myself on creating pixel perfect designs
                         that bring your ideas to the screen. I strive to create inclusive and clear pages for your passions! </p>
                 </div>
                 <div class="Projects" id="projects">
-                    <h2>Projects</h2>
                         <ul class="project-cards">
                             
                             <div class="card">
@@ -70,7 +68,6 @@
                 </div>
                 
                 <div class ="skills" id="skills">
-                    <h2 class="header">Skills</h2>
                     <div class="Skills">
                         
                                 <img src="assets/Html5.png">
@@ -85,12 +82,13 @@
         </main>
 
 
+
         <Footer>
             <ul>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="#">Skills</a></li>
-                <li><a href="assets/contact.html" >Contact</a></li>
+                <li id="contact-link"><a href="assets/contact.html" >Contact</a></li>
             </ul>
         </Footer>
     <script src="assets/main.js"></script>
