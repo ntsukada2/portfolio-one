@@ -1,5 +1,5 @@
 let aboutTarget = document.querySelector(".About")
-let aboutButton = document.getElementById('about-button')
+let aboutButton = document.querySelector('.about-button')
 let aboutHidden = true;
 
 let projectsTarget = document.querySelector(".Projects")
@@ -12,7 +12,9 @@ let skillsHidden = true;
 
 
 let aboutRevealHide = function() {
+    
     if(aboutHidden) {
+
         aboutTarget.style.display = 'block';
         aboutHidden = false;
         projectsTarget.style.display = 'none';
@@ -20,6 +22,7 @@ let aboutRevealHide = function() {
         skillsTarget.style.display = 'none';
         skillsHidden = true;
     } else {
+
         aboutTarget.style.display = 'none';
         aboutHidden = true;
     }   
@@ -28,7 +31,8 @@ let aboutRevealHide = function() {
 
 let projectRevealHide = function() {
     if(projectsHidden) {
-        projectsTarget.style.display = 'block';
+
+        projectsTarget.style.display = 'flex';
         projectsHidden = false;
         aboutTarget.style.display = 'none';
         aboutHidden = true;
@@ -36,6 +40,7 @@ let projectRevealHide = function() {
         skillsHidden = true;
         
     } else {
+
         projectsTarget.style.display = 'none';
         projectsHidden = true;
     }   
@@ -44,6 +49,7 @@ let projectRevealHide = function() {
 
 let skillsRevealHide = function() {
     if(skillsHidden) {
+
         skillsTarget.style.display = 'block';
         skillsHidden = false;
         projectsTarget.style.display = 'none';
@@ -51,6 +57,7 @@ let skillsRevealHide = function() {
         aboutTarget.style.display = 'none';
         aboutHidden = true;
     } else {
+
         skillsTarget.style.display = 'none';
         skillsHidden = true;
     }   
