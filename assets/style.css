@@ -93,7 +93,7 @@ section img{
 @media only screen and (max-width: 1450px){
     section p {
         font-size: 3.8rem;
-        color: red;
+
     }
     .designer {
         font-size: 4rem;
@@ -185,27 +185,33 @@ article p{
 }
 .Projects img {
     height: 25rem;
-    box-shadow:rgba(0, 0, 0, 0.2);
     border: 2px solid white;
+    overflow: hidden;
 
 }
 
-.project-cards {
+.Projects {
     display: flex;
-    justify-content: center;
-}
-
-.project-cards li a{
-    font-size: 2rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .card {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    text-align: center;
+    display: table;
 
 }
 
+.caption {
+    display: table-caption;
+    caption-side: bottom;    
+}
+@media only screen and (max-width: 720px){
+    .Projects img{
+        max-width: 400px;
+        height: auto
+    }
+}
 .Skills img {
     height: 3.5rem;
 }
@@ -214,7 +220,11 @@ article p{
     display: flex;
     justify-content: space-around;
 }
-
+@media only screen and (max-width: 500px) {
+    .Skills img{
+        height: 2.5rem;
+    }
+}
 /*footer section*/
 footer {
     width: 100%;

@@ -32,7 +32,7 @@ let aboutRevealHide = function() {
 let projectRevealHide = function() {
     if(projectsHidden) {
 
-        projectsTarget.style.display = 'block';
+        projectsTarget.style.display = 'flex';
         projectsHidden = false;
         aboutTarget.style.display = 'none';
         aboutHidden = true;
